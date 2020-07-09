@@ -1,2 +1,2 @@
-degree=int(input())
-print(2**degree)
+degree = int(input())
+print(2 ** degree)
