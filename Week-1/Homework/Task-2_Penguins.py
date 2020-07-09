@@ -1,7 +1,7 @@
 pQuant = input()
 
-print('   _~_    ' * pQuant, sep=' ')
-print('  (o o)   ' * pQuant, sep=' ')
-print(' /  V  \\  ' * pQuant, sep=' ')
-print('/(  _  )\\ ' * pQuant, sep=' ')
-print('  ^^ ^^   ' * pQuant, sep=' ')
+print('   _~_    ' * int(pQuant), sep=' ')
+print('  (o o)   ' * int(pQuant), sep=' ')
+print(' /  V  \\  ' * int(pQuant), sep=' ')
+print('/(  _  )\\ ' * int(pQuant), sep=' ')
+print('  ^^ ^^   ' * int(pQuant), sep=' ')
