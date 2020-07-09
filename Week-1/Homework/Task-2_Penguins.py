@@ -1,7 +1,7 @@
 pQuant = input()
 
-print('   _~_    ' * 3, sep=' ')
-print('  (o o)   ' * 3, sep=' ')
-print(' /  V  \\  ' * 3, sep=' ')
-print('/(  _  )\\ ' * 3, sep=' ')
-print('  ^^ ^^   ' * 3, sep=' ')
+print('   _~_    ' * pQuant, sep=' ')
+print('  (o o)   ' * pQuant, sep=' ')
+print(' /  V  \\  ' * pQuant, sep=' ')
+print('/(  _  )\\ ' * pQuant, sep=' ')
+print('  ^^ ^^   ' * pQuant, sep=' ')
