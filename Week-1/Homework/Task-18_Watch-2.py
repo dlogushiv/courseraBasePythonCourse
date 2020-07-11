@@ -1,6 +1,10 @@
 inNumber = int(input())
 inSeconds = inNumber % (24 * 60 * 60)
-hours = inSeconds // (60 * 60)
-minutes = (inSeconds - hours * 60 * 60) // 60
+h = inSeconds // (60 * 60)
+minutes = (inSeconds - h * 60 * 60) // 60
+m1 = minutes // 10
+m2 = minutes % 10
 seconds = inSeconds % 60
-print(hours, minutes, seconds, sep=':')
+s1 = seconds // 10
+s2 = seconds % 10
+print(h, ':', m1, m2, ':', s1, s2, sep='')
